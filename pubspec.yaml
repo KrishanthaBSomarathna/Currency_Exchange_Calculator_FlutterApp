@@ -1,0 +1,53 @@
+name: currency_exchange_calculator
+description: "A simple yet modern Flutter app for currency exchange calculation."
+publish_to: 'none' # Prevent accidental publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0" # Supports Dart SDK version 3.0 and above
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8 # For iOS-style icons
+  http: ^1.2.2 # For API requests and responses
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0 # Enforces best coding practices
+  flutter_launcher_icons: ^0.10.0 # Generates app icons automatically
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png" # Path to your app icon
+
+flutter:
+  uses-material-design: true
+
+  # Assets (images/icons)
+  assets:
+    - assets/icon.png
+
+  # Custom fonts
+ #
+    # - family: Roboto
+    #   fonts:
+    #     - asset: fonts/Roboto-Regular.ttf
+    #     - asset: fonts/Roboto-Bold.ttf
+    #       weight: 700
+    # - family: OpenSans
+    #   fonts:
+    #     - asset: fonts/OpenSans-Regular.ttf
+    #     - asset: fonts/OpenSans-SemiBold.ttf
+    #       weight: 600
+
+# Script comments for managing the project
+# -----------------------------------------
+# 1. Run `flutter pub get` after updating dependencies.
+# 2. Generate app icons using: `flutter pub run flutter_launcher_icons:main`
+# 3. Add assets like images or icons in the `assets` folder and update paths above.
+# 4. Use the `flutter_lints` package for consistent coding practices.
