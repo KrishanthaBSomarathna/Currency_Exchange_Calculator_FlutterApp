@@ -15,14 +15,6 @@ A simple and user-friendly Flutter application designed to provide real-time cur
 - **HTTP requests**: For fetching exchange rate data from the API.
 - **JSON Parsing**: To handle and display the exchange rate data.
 
-## Setup
-
-To get started with this project:
-
-1. Clone the repository to your local machine:
-
-   ```bash
-   git clone https://github.com/your-username/Currency-Exchange-Calculator.git
 
 
 ![Screenshot 2024-12-03 213209](https://github.com/user-attachments/assets/02accc67-affb-4e80-8b8a-6fc07a0a905e)
